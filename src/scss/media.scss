@@ -1,0 +1,237 @@
+@media (max-width: 1200px) {
+  .section-title {
+    font-size: 68px;
+    &__separator {
+      font-size: 68px;
+    }
+  }
+  .section-text {
+    font-size: 22px;
+  }
+}
+@media (max-width: 992px) {
+  .hero-section {
+    position: relative;
+    &__content-inner {
+      margin-left: 10px;
+    }
+    &__title {
+      font-size: 40px;
+      line-height: 120%;
+    }
+    &__separator {
+      font-size: 40px;
+      line-height: 120%;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+  .section-title {
+    font-size: 48px;
+    &__separator {
+      font-size: 48px;
+    }
+  }
+  .section-text {
+    font-size: 18px;
+  }
+  .section {
+    padding: 60px 0;
+    &--big {
+      padding: 90px 0;
+    }
+  }
+
+  .client-item {
+    margin-bottom: 40px;
+    &__img-wrap {
+      width: 80px;
+      margin-right: 20px;
+    }
+    &__content {
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+
+  .field-section {
+    &__text {
+      padding-left: 0;
+      padding-top: 0;
+      margin-bottom: 80px;
+    }
+  }
+
+  .field-item {
+    margin-bottom: 40px;
+    &__header {
+      margin-bottom: 8px;
+    }
+    &__title {
+      font-size: 26px;
+    }
+    &__content {
+      font-size: 16px;
+    }
+  }
+
+  .benefits-item {
+    margin: auto;
+    max-width: 320px;
+    margin-bottom: 60px;
+
+    &__subtitle {
+      font-size: 30px;
+    }
+    &__title {
+      font-size: 58px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .accordion-title {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .accordion-subtitle {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .accordion-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .accordion-content {
+    &__title {
+      font-size: 16px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+    &__link {
+      font-size: 22px;
+    }
+  }
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .hero-section {
+    &__content-inner {
+      margin-left: 10px;
+    }
+    &__title {
+      font-size: 30px;
+      line-height: 120%;
+    }
+    &__separator {
+      font-size: 30px;
+      line-height: 120%;
+    }
+    &__text {
+      font-size: 18px;
+      line-height: 120%;
+    }
+  }
+  .section-title {
+    font-size: 32px;
+    &__separator {
+      font-size: 32px;
+    }
+  }
+  .section-text {
+    font-size: 18px;
+  }
+  .section-small-text {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .section {
+    padding: 40px 0;
+    &--big {
+      padding: 60px 0;
+    }
+  }
+
+  .client-item {
+    margin-bottom: 40px;
+    &__img-wrap {
+      width: 60px;
+      margin-right: 20px;
+    }
+    &__content {
+      font-size: 16px;
+      line-height: 120%;
+    }
+  }
+
+  .field-section {
+    &__text {
+      padding-left: 0;
+      padding-top: 0;
+      margin-bottom: 40px;
+    }
+  }
+
+  .field-item {
+    margin-bottom: 20px;
+    &__header {
+      margin-bottom: 8px;
+    }
+    &__title {
+      font-size: 22px;
+    }
+    &__content {
+      font-size: 14px;
+    }
+  }
+
+  .benefits-item {
+    margin-bottom: 40px;
+
+    &__subtitle {
+      font-size: 24px;
+    }
+    &__title {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    &__text {
+      font-size: 16px;
+    }
+  }
+
+  .accordion-title {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .accordion-subtitle {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .accordion-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .accordion-icon {
+    width: 16px;
+    height: 16px;
+  }
+  .accordion-content {
+    &__title {
+      font-size: 14px;
+    }
+    &__text {
+      font-size: 14px;
+    }
+    &__link {
+      font-size: 18px;
+    }
+  }
+}
