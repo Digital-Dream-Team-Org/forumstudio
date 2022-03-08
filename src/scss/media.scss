@@ -118,11 +118,20 @@
       font-size: 22px;
     }
   }
+
+  .hide-mobile {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
   .hero-section {
+    &.section {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+
     &__content-inner {
       margin-left: 10px;
     }
@@ -146,14 +155,17 @@
     }
   }
   .section-text {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 120%;
   }
   .section-small-text {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 120%;
   }
   .section {
     padding: 40px 0;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
     &--big {
       padding: 60px 0;
     }
@@ -180,7 +192,7 @@
   }
 
   .field-item {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     &__header {
       margin-bottom: 8px;
     }
@@ -188,7 +200,7 @@
       font-size: 22px;
     }
     &__content {
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 
@@ -225,10 +237,10 @@
   }
   .accordion-content {
     &__title {
-      font-size: 14px;
+      font-size: 16px;
     }
     &__text {
-      font-size: 14px;
+      font-size: 16px;
     }
     &__link {
       font-size: 18px;

@@ -700,7 +700,9 @@ a {
   color: rgb(163, 163, 163);
   line-height: 48px;
 }
-
+.accordion-header__content {
+  margin-right: 15px;
+}
 .accordion-item {
   border: none;
   padding-left: 10px;
