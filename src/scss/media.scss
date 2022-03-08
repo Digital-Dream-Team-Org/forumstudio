@@ -73,7 +73,7 @@
       font-size: 26px;
     }
     &__content {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
@@ -90,16 +90,24 @@
       margin-bottom: 20px;
     }
     &__text {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
+  .accordion-button {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .accordion-title {
     font-size: 26px;
     line-height: 120%;
   }
   .accordion-subtitle {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 120%;
   }
   .accordion-item {
@@ -109,10 +117,10 @@
 
   .accordion-content {
     &__title {
-      font-size: 16px;
+      font-size: 18px;
     }
     &__text {
-      font-size: 16px;
+      font-size: 18px;
     }
     &__link {
       font-size: 22px;
@@ -126,6 +134,18 @@
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+  .main-header {
+    &__logo {
+      width: 90px;
+    }
+  }
+  .burger-icon {
+    transform: scale(0.9);
+  }
+  .main-footer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .hero-section {
     &.section {
       padding-left: 0 !important;
@@ -178,7 +198,7 @@
       margin-right: 20px;
     }
     &__content {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 120%;
     }
   }
@@ -200,7 +220,7 @@
       font-size: 22px;
     }
     &__content {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
@@ -215,7 +235,7 @@
       margin-bottom: 20px;
     }
     &__text {
-      font-size: 16px;
+      font-size: 18px;
     }
   }
 
@@ -237,13 +257,13 @@
   }
   .accordion-content {
     &__title {
-      font-size: 16px;
+      font-size: 18px;
     }
     &__text {
-      font-size: 16px;
+      font-size: 18px;
     }
     &__link {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 }
